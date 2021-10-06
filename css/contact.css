@@ -3,13 +3,6 @@ body {
     background-color: white;
 }
 
-a, a:hover, a:link, .no-decoration {
-    text-decoration: none !important;
-}
-
-.no-decoration {
-    color: red
-}
 
 .splash-page {
     margin-left: 15%;
@@ -46,6 +39,15 @@ a, a:hover, a:link, .no-decoration {
     color: black;
 }
 
+.no-decoration {
+    text-decoration: none;
+    color: inherit;
+}
+
+.no-decoration:hover {
+    text-decoration: underline;
+}
+
 
 /*
  * End of Nav Bar
@@ -60,18 +62,6 @@ a, a:hover, a:link, .no-decoration {
     width: 100%;
     /* border: solid black; */
     flex-direction: column;
-}
-
-
-.headline {
-    
-    /* background-color: lightcyan; */
-    width: 100%;
-    font-family: proxima-n-w01-reg,sans-serif;
-    align-self: center;
-    text-align: left;
-    font-size: 4em;
-    padding-left: 2%;
 }
 
 /* 

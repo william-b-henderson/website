@@ -3,15 +3,6 @@ body {
     background-color: white;
 }
 
-.no-decoration {
-    text-decoration: none;
-    color: inherit;
-}
-
-.no-decoration:hover {
-    text-decoration: underline;
-}
-
 .splash-page {
     margin-left: 15%;
     margin-right: 15%;
@@ -43,6 +34,15 @@ body {
     font-size: 1em;
     align-self: center;
     font-weight: bold;
+}
+
+.no-decoration {
+    text-decoration: none;
+    color: inherit;
+}
+
+.no-decoration:hover {
+    text-decoration: underline;
 }
 
 /*
@@ -125,16 +125,8 @@ body {
  * Beginning of Assistant Spans
  */
 
-.shadow {
-    -moz-box-shadow:    3px 3px 5px 6px #ccc;
-    -webkit-box-shadow: 3px 3px 5px 6px #ccc;
-    box-shadow:         3px 3px 5px 6px #ccc;
-    margin-bottom: 20px;
-  }
 
 .one-edge-shadow {
-	-webkit-box-shadow: 0 8px 6px -6px black;
-	-moz-box-shadow: 0 8px 6px -6px black;
 	box-shadow: 0 8px 6px -6px black;
     margin-bottom: 20px;
 }
