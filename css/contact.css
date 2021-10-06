@@ -3,6 +3,14 @@ body {
     background-color: white;
 }
 
+a, a:hover, a:link, .no-decoration {
+    text-decoration: none !important;
+}
+
+.no-decoration {
+    color: red
+}
+
 .splash-page {
     margin-left: 15%;
     margin-right: 15%;
@@ -29,12 +37,15 @@ body {
 
 }
 
+
 .nav-button {
     font-family: "DejaVu Sans Mono", monospace;
     font-size: 1em;
     align-self: center;
     font-weight: bold;
+    color: black;
 }
+
 
 /*
  * End of Nav Bar
@@ -67,16 +78,7 @@ body {
  * Beginning of Assistant Spans
  */
 
-.shadow {
-    -moz-box-shadow:    3px 3px 5px 6px #ccc;
-    -webkit-box-shadow: 3px 3px 5px 6px #ccc;
-    box-shadow:         3px 3px 5px 6px #ccc;
-    margin-bottom: 20px;
-  }
-
 .one-edge-shadow {
-	-webkit-box-shadow: 0 8px 6px -6px black;
-	-moz-box-shadow: 0 8px 6px -6px black;
 	box-shadow: 0 8px 6px -6px black;
     margin-bottom: 20px;
 }
