@@ -15,9 +15,11 @@ body {
 .nav {
     display: flex;
     justify-content: center;
-    background-color: aliceblue;
+    /* background-color: aliceblue; */
     gap: 5%;
     height: 50px;
+    margin-right: 10%;
+    margin-left: 10%;
     
     
 }
@@ -65,9 +67,9 @@ body {
     
     /* background-color: lightcyan; */
     width: 100%;
-    font-family: proxima-n-w01-reg,sans-serif;
+    font-family: "OCR A Std", monospace;
     align-self: center;
-    text-align: left;
+    text-align: center;
     font-size: 4em;
     padding-left: 2%;
 }
@@ -78,8 +80,26 @@ body {
 
  .contact-info {
     text-align: center;
+    list-style-type: none;
+    align-self: center;
+    margin: 0;
+    padding: 0;
+    width: 20%;
  }
 
+li a {
+    display: block;
+    width: 100%;
+    background-color: black;
+    /* border: solid black; */
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 2em;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
  
 /* 
  * Beginning of Assistant Spans

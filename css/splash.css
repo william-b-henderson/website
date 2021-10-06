@@ -15,10 +15,11 @@ body {
 .nav {
     display: flex;
     justify-content: center;
-    background-color: aliceblue;
+    /* background-color: aliceblue; */
     gap: 5%;
     height: 50px;
-    
+    margin-right: 10%;
+    margin-left: 10%;
     
 }
 

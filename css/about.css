@@ -15,10 +15,11 @@ body {
 .nav {
     display: flex;
     justify-content: center;
-    background-color: aliceblue;
+    /* background-color: aliceblue; */
     gap: 5%;
     height: 50px;
-    
+    margin-right: 10%;
+    margin-left: 10%;
     
 }
 
@@ -65,9 +66,9 @@ body {
     
     /* background-color: lightcyan; */
     width: 100%;
-    font-family: proxima-n-w01-reg,sans-serif;
+    font-family: "OCR A Std", monospace;
     align-self: center;
-    text-align: left;
+    text-align: center;
     font-size: 4em;
     padding-left: 2%;
 }
@@ -84,7 +85,7 @@ body {
     align-items: center;
     flex-direction: column;
     text-align: center;
-    font-size: 1em;
+    font-size: 1.5em;
 }
 
 
