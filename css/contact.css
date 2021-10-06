@@ -3,7 +3,6 @@ body {
     background-color: white;
 }
 
-
 .splash-page {
     margin-left: 15%;
     margin-right: 15%;
@@ -30,13 +29,11 @@ body {
 
 }
 
-
 .nav-button {
     font-family: "DejaVu Sans Mono", monospace;
     font-size: 1em;
     align-self: center;
     font-weight: bold;
-    color: black;
 }
 
 .no-decoration {
@@ -48,13 +45,12 @@ body {
     text-decoration: underline;
 }
 
-
 /*
  * End of Nav Bar
  */ 
 
  /*
-  * Beginning of Splash Page
+  * Beginning of Page Layout
   */
 
 .page-layout {
@@ -64,9 +60,31 @@ body {
     flex-direction: column;
 }
 
+
+.headline {
+    
+    /* background-color: lightcyan; */
+    width: 100%;
+    font-family: proxima-n-w01-reg,sans-serif;
+    align-self: center;
+    text-align: left;
+    font-size: 4em;
+    padding-left: 2%;
+}
+
+/* 
+ * Beginning of Contact Info
+ */
+
+ .contact-info {
+    text-align: center;
+ }
+
+ 
 /* 
  * Beginning of Assistant Spans
  */
+
 
 .one-edge-shadow {
 	box-shadow: 0 8px 6px -6px black;

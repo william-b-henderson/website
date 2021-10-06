@@ -1,0 +1,134 @@
+
+body {
+    background-color: white;
+}
+
+.splash-page {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+/*
+ * Beginning of Nav Bar
+ */
+
+.nav {
+    display: flex;
+    justify-content: center;
+    background-color: aliceblue;
+    gap: 5%;
+    height: 50px;
+    
+    
+}
+
+.nav-logo {
+    align-self: center;
+    font-family: "American Typewriter", serif;
+    font-size: 1.5em;
+
+}
+
+.nav-button {
+    font-family: "DejaVu Sans Mono", monospace;
+    font-size: 1em;
+    align-self: center;
+    font-weight: bold;
+}
+
+.no-decoration {
+    text-decoration: none;
+    color: inherit;
+}
+
+.no-decoration:hover {
+    text-decoration: underline;
+}
+
+/*
+ * End of Nav Bar
+ */ 
+
+ /*
+  * Beginning of Splash Page
+  */
+
+.page-layout {
+    display: flex;
+    width: 100%;
+    /* border: solid black; */
+    flex-direction: column;
+}
+
+
+.headline {
+    
+    /* background-color: lightcyan; */
+    width: 100%;
+    font-family: "OCR A Std", monospace;
+    align-self: center;
+    text-align: center;
+    font-size: 4em;
+    padding-left: 2%;
+}
+
+ /*
+  * Beginning of Portfolio
+  */
+
+.portfolio {
+    display: flex;
+    /* border: solid black; */
+    width: 100%;
+    height: 150vh;
+    align-items: center;
+    flex-direction: column;
+}
+
+/*
+ * Beginning of a Portfolio Item
+ */
+
+.proj-item {
+    background-color: ghostwhite;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.proj-name {
+    font-family: "OCR A Std", monospace;
+    font-size: 2em;
+
+}
+
+.proj-prog-lang {
+    font-family: "OCR A Std", monospace;
+    font-size: 1em;
+ }
+
+.proj-img {
+    width: 100%;
+}
+
+.proj-desc {
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+/*
+ * End of a Portfolio Item
+ */
+
+/* 
+ * Beginning of Assistant Spans
+ */
+
+
+.one-edge-shadow {
+	box-shadow: 0 8px 6px -6px black;
+    margin-bottom: 20px;
+}
+
+
